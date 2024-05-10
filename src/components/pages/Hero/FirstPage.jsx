@@ -1,5 +1,5 @@
 import React from "react";
-import personImg from "../../../assets/person2.png";
+import personImg from "../../../assets/person1.png";
 
 const FirstPage = () => {
   return (
@@ -15,19 +15,19 @@ const FirstPage = () => {
             <div className="space-y-3">
               <p className="uppercase">Hello</p>
               <p className="text-4xl md:text-6xl font-bold text-black/80">
-                I'm Alex
+                I'm Homie Yogurt
               </p>
-              <p className="text-black/75 text-left">Full Stack Developer</p>
+              <p className="text-black/75 text-left">Lorem ipsum dolor sit amet.</p>
               <p className="text-black/75">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                 exercitationem tempora in nisi quos.
               </p>
               <a
                 className="inline-block primary-btn "
-                href="mailto:Tq6cM@example.com"
+                href="https://www.instagram.com/homieyogurt.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               >
                 {" "}
-                Hire me
+                Follow the news
               </a>
             </div>
           </div>

@@ -1,33 +1,32 @@
 import React from "react";
-import { AiFillLayout } from "react-icons/ai";
-import { MdOutlinePhoneAndroid } from "react-icons/md";
-import { HiMiniComputerDesktop } from "react-icons/hi2";
-import { MdSecurity } from "react-icons/md";
-
+import { MdOutlineDeliveryDining } from "react-icons/md";
+import { FaLine } from "react-icons/fa";
+import { FaStore } from "react-icons/fa";
+import { FaRegClock } from "react-icons/fa";
 const ServicesData = [
   {
-    name: "UX research",
-    description: "Lorem ipsum dolor sit amet.",
-    icon: <AiFillLayout className="text-4xl" />,
-    bgColor: "bg-blue-500/70",
+    name: "Delivery",
+    description: "Lineman, Grab.",
+    icon: <MdOutlineDeliveryDining className="text-4xl" />,
+    bgColor: "bg-green-700/70",
   },
   {
-    name: "App Development",
+    name: "Contact channels",
     description: "Lorem ipsum dolor sit.",
-    icon: <MdOutlinePhoneAndroid className="text-4xl" />,
-    bgColor: "bg-lime-500/70",
+    icon: <FaLine  className="text-4xl" />,
+    bgColor: "bg-lime-500/90",
   },
   {
-    name: "Web App Development",
-    description: "Lorem ipsum dolor sit amet.",
-    icon: <HiMiniComputerDesktop className="text-4xl" />,
-    bgColor: "bg-fuchsia-500/70",
+    name: "Storefront",
+    description: "-สาขา หน้าม.มหิดล ประตู 4 และ -สาขา Groove Market ",
+    icon: <FaStore className="text-4xl" />,
+    bgColor: "bg-red-700/70",
   },
   {
-    name: "Security",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    icon: <MdSecurity className="text-4xl" />,
-    bgColor: "bg-orange-500/70",
+    name: "Opening and closing ",
+    description: "สาขา หน้าม.มหิดล 11:00-21:00 Groove Market 14:30-23.00",
+    icon: <FaRegClock  className="text-4xl" />,
+    bgColor: "bg-orange-600/70",
   },
 ];
 const ServicesBox = () => {

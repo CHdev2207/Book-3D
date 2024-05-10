@@ -8,11 +8,11 @@ const Skills = () => {
         {/* heading */}
         <div>
           <div className="relative ">
-            <div className="text-center text-6xl xl:text-8xl font-bold text-black/5 ">
-              SKILLS
+            <div className="text-center text-6xl xl:text-6xl font-bold text-black/5 ">
+            Recommended menu
             </div>
-            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-4xl">
-              Skills
+            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/3 -translate-y-1/2 text-3xl md:text-4xl" >
+            Recommended menu
             </h1>
           </div>
         </div>

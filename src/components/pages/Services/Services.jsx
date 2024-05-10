@@ -7,7 +7,7 @@ const Services = () => {
     <div className="h-full page-shadow bg-white p-10">
       {/* heading */}
       <Heading
-        title="Services"
+        title="Sales channels"
         subtitle="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet."
       />
 

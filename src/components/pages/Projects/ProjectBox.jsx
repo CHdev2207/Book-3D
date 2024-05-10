@@ -12,6 +12,7 @@ const ProjectBox = ({ ProjectData }) => {
                 alt=""
                 className="w-full h-full object-cover rounded-xl"
               />
+              
               {/* details section */}
               <div className="pt-3">
                 <h1 className="text-2xl font-semibold">{project.name}</h1>
@@ -23,7 +24,7 @@ const ProjectBox = ({ ProjectData }) => {
                   target="_blank"
                   className="primary-btn mt-3"
                 >
-                  View project
+                  View Manu
                 </a>
               </div>
             </div>

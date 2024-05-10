@@ -7,7 +7,7 @@ const Projects = ({ ProjectData }) => {
     <div className="h-full page-shadow bg-white p-10">
       {/* heading */}
       <Heading
-        title="Projects"
+        title="Store products"
         subtitle="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet."
       />
 

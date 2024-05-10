@@ -1,5 +1,6 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { FaLine } from "react-icons/fa";
 import { MdFacebook } from "react-icons/md";
 import Heading from "../../HelperComp/Heading";
 
@@ -29,16 +30,16 @@ const About = () => {
         <div className="flex space-x-4 mt-10">
           <MdFacebook className="social-btn" />
           <AiFillInstagram className="social-btn" />
-          <AiFillGithub className="social-btn" />
+          <FaLine  className="social-btn"/>
           <AiFillLinkedin className="social-btn" />
         </div>
         {/* Button Links */}
         <div className="flex space-x-4 mt-4">
           <a href="#" className="primary-btn">
-            Download Resume
+          Contact Me
           </a>
           <a href="#" className="outline-btn">
-            Contact
+          Follow the store
           </a>
         </div>
       </div>
